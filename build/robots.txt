@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fio-condutor-demo.netlify.app/sitemap.xml

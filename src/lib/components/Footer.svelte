@@ -1,0 +1,11 @@
+<script lang="ts">import Mark from './Mark.svelte'; const year = new Date().getFullYear();</script>
+<footer class="footer">
+  <div class="footer-top"><div><Mark inverse /><p>Tecnologia que conecta o trabalho<br />de ponta a ponta.</p></div>
+    <div class="footer-links"><span class="eyebrow">EXPLORE</span><a href="/solucoes">Soluções</a><a href="/demonstracoes">Demonstrações</a><a href="/processo">Como trabalhamos</a><a href="/insights">Insights</a></div>
+    <div class="footer-cta"><span class="eyebrow">TEM UM DESAFIO?</span><a href="https://wa.me/5583998739712?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Fio%20Condutor." target="_blank" rel="noreferrer">Vamos encontrar o fio <span aria-hidden="true">↗</span></a></div>
+  </div>
+  <div class="footer-bottom"><small>© {year} Fio Condutor Tecnologia <span class="concept">PROJETO CONCEITUAL</span></small><small>Desenvolvido por LMX Soluções Digitais/Segundo Almeida</small></div>
+</footer>
+<style>
+.footer{background:var(--ink);color:var(--paper);padding:clamp(3rem,7vw,6rem) clamp(1.2rem,6vw,5rem) 1.35rem}.footer-top{max-width:1240px;margin:auto;display:grid;grid-template-columns:1.25fr .7fr 1fr;gap:2rem;padding-bottom:4rem}.footer-top p{font-size:.92rem;line-height:1.6;color:#b8b8ad;margin:1.3rem 0 0}.footer-links,.footer-cta{display:flex;flex-direction:column;align-items:flex-start;gap:.85rem}.eyebrow{font:500 .66rem 'IBM Plex Mono',monospace;letter-spacing:.14em;color:#aaa99e;margin-bottom:.4rem}.footer-links a{color:#e4e2d9;text-decoration:none;font-size:.9rem}.footer-links a:hover{color:#f76a51}.footer-cta>a{color:var(--paper);font:700 clamp(1.4rem,2vw,2rem) 'Syne',sans-serif;text-decoration:none;letter-spacing:-.04em;border-bottom:1px solid #65645c;padding-bottom:.5rem}.footer-cta>a span{color:#f76a51}.footer-bottom{max-width:1240px;border-top:1px solid #484941;padding-top:1.2rem;margin:auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:#aaa99e}.footer-bottom small{font-size:.7rem}.concept{margin-left:.6rem;padding:.22rem .4rem;border:1px solid #66665c;font:500 .58rem 'IBM Plex Mono',monospace;letter-spacing:.05em}@media(max-width:700px){.footer-top{grid-template-columns:1fr 1fr;gap:2.3rem 1rem;padding-bottom:2.8rem}.footer-top>div:first-child{grid-column:1/-1}.footer-cta{grid-column:1/-1}.footer-bottom{flex-direction:column}}
+</style>

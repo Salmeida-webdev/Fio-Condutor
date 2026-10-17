@@ -1,0 +1,7 @@
+node_modules/
+.svelte-kit/
+.netlify/
+.DS_Store
+Thumbs.db
+.env*
+!.env.example
